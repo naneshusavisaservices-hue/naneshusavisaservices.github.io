@@ -1,33 +1,166 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Nanesh USA Visa Services</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nanesh USA Visa Services</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #0b0b0b;
+  color: #fff;
+}
+
+h1, h2, h3 {
+  color: #f5a623;
+}
+
+.container {
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.btn {
+  background-color: #f5a623;
+  color: #000;
+  padding: 12px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.trust {
+  display: flex;
+  justify-content: space-around;
+  background: #111;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #111;
+  padding: 25px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 15px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.cta {
+  background: #111;
+  padding: 60px;
+}
+
+footer {
+  background: #000;
+  padding: 20px;
+  text-align: center;
+}
+
+/* WhatsApp Sticky Button */
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  padding: 15px 18px;
+  border-radius: 50%;
+  font-size: 20px;
+  text-decoration: none;
+}
+</style>
 </head>
 
-<body style="font-family: Arial; margin: 0;">
+<body>
 
-  <!-- HERO SECTION -->
-  <div style="background:#0b1c3d; color:white; padding:60px; text-align:center;">
-    <h1>Nanesh USA Visa Services</h1>
-    <p>Your Trusted USA Visa Expert in Hyderabad</p>
-    <p>Tourist | Student | Work Visas</p>
+<!-- HERO -->
+<div class="container">
+  <h1>Nanesh USA Visa Services</h1>
+  <p>Your Trusted USA Visa Expert in Hyderabad</p>
+  <p>We provide professional guidance for USA Tourist, Student, and Work Visas.</p>
+  <a href="https://wa.me/919182250413" class="btn">Apply Now</a>
+</div>
 
-    <a href="https://wa.me/+91 9182250413">
-      <button style="padding:12px 25px; font-size:16px; background:#25D366; color:white; border:none;">
-        Apply Now on WhatsApp
-      </button>
-    </a>
+<!-- TRUST -->
+<div class="trust">
+  <div>11K+ Followers</div>
+  <div>92% Success</div>
+  <div>1000+ Visas</div>
+  <div>Expert Support</div>
+</div>
+
+<!-- SERVICES -->
+<div class="container">
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="card"><h3>B1/B2 Visa</h3><p>Tourist & Business Visa Help</p></div>
+    <div class="card"><h3>F1/F2 Visa</h3><p>Student Visa Support</p></div>
+    <div class="card"><h3>H1B/H4</h3><p>Work Visa Assistance</p></div>
+    <div class="card"><h3>DS-160</h3><p>Form Filling Help</p></div>
+    <div class="card"><h3>Slots</h3><p>Fast Appointment Booking</p></div>
   </div>
+</div>
 
-  <!-- TRUST SECTION -->
-  <div style="padding:40px; text-align:center;">
-    <h2>Why Choose Us?</h2>
-    <p>✔ 11,000+ Instagram Followers</p>
-    <p>✔ 92% Visa Success Rate</p>
-    <p>✔ 1000+ Visas Approved</p>
-    <p>✔ Expert Guidance for All Visa Types</p>
+<!-- ABOUT -->
+<div class="container">
+  <h2>About Us</h2>
+  <p>We help clients successfully get USA visas with expert guidance and full support.</p>
+</div>
+
+<!-- GALLERY -->
+<div class="container">
+  <h2>Recent Approvals</h2>
+  <div class="gallery">
+    <img src="https://via.placeholder.com/300x200">
+    <img src="https://via.placeholder.com/300x200">
+    <img src="https://via.placeholder.com/300x200">
   </div>
+</div>
+
+<!-- CTA -->
+<div class="cta">
+  <h2>Get Your Visa Approved Today!</h2>
+  <a href="https://wa.me/919182250413" class="btn">Chat Now</a>
+</div>
+
+<!-- CONTACT -->
+<div class="container">
+  <h2>Contact</h2>
+  <p>📞 +91 9182250413</p>
+  <p>📍 Hyderabad</p>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  © 2026 Nanesh USA Visa Services
+</footer>
+
+<!-- WhatsApp Button -->
+<a href="https://wa.me/919182250413" class="whatsapp">💬</a>
 
 </body>
 </html>
